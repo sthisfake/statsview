@@ -78,11 +78,12 @@ func New() *ViewManager {
 	mgr.Ctx, mgr.Cancel = context.WithCancel(context.Background())
 	mgr.Register(
 		viewer.NewGoroutinesViewer(),
-		viewer.NewHeapViewer(),
-		viewer.NewStackViewer(),
-		viewer.NewGCNumViewer(),
-		viewer.NewGCSizeViewer(),
-		viewer.NewGCCPUFractionViewer(),
+		// viewer.NewHeapViewer(),
+		// viewer.NewStackViewer(),
+		// viewer.NewGCNumViewer(),
+		// viewer.NewGCSizeViewer(),
+		// viewer.NewGCCPUFractionViewer(),
+		viewer.NewCustom(),
 	)
 	smgr := viewer.NewStatsMgr(mgr.Ctx)
 	for _, v := range mgr.Views {
