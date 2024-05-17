@@ -1,4 +1,5 @@
-module statsviewPouya
+module github.com/sthisfake/statsview
+
 
 go 1.22.1
 
