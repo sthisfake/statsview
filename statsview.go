@@ -11,8 +11,8 @@ import (
 	"github.com/go-echarts/go-echarts/v2/templates"
 	"github.com/rs/cors"
 
-	"statsviewPouya/statics"
-	"statsviewPouya/viewer"
+	"github.com/sthisfake/statsview/statics"
+	"github.com/sthisfake/statsview/viewer"
 )
 
 // ViewManager
