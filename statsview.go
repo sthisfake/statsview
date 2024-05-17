@@ -1,4 +1,4 @@
-package statsviewPouya
+package statsview
 
 import (
 	"context"
