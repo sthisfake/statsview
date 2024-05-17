@@ -1,4 +1,4 @@
-package statsview
+package statsviewPouya
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"github.com/go-echarts/go-echarts/v2/templates"
 	"github.com/rs/cors"
 
-	"github.com/go-echarts/statsview/statics"
-	"github.com/go-echarts/statsview/viewer"
+	"statsviewPouya/statics"
+	"statsviewPouya/viewer"
 )
 
 // ViewManager

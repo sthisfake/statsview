@@ -1,4 +1,4 @@
-package statsview
+package statsviewPouya
 
 import (
 	"testing"
